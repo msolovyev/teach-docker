@@ -1,6 +1,7 @@
 version:  '3.9'
 
 services:
+platform: linux/amd64
   db:
     container_name: pg_db
     image: postgres:14-alpine
